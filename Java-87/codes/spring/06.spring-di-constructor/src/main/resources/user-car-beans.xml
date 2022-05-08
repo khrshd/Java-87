@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="bmw" class="co.edureka.spring.core.beans.Car">
+		<property name="model" value="BMW"/>
+		<property name="cost" value="4250000.0"/>	
+	</bean>
+	
+	<bean id="usr1" class="co.edureka.spring.core.beans.User">
+		<constructor-arg value="Sunil"/>
+		<constructor-arg value="Joseph"/>
+		<constructor-arg ref="bmw"/>
+	</bean>
+</beans>

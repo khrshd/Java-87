@@ -1,0 +1,64 @@
+Application Build Process
+
+-> Create a new Project (a web project)
+
+-> For developing a project we need to create project folder structure first
+ folder structure format may be different for different applications - like web applications, distributed applications, enterprise application 
+
+-> We need to download libraries (jars) required for our project
+	Ex: Spring, Hibernate, Webservices etc...
+
+-> We need to add all required jars to project build path
+
+-> We need to compile all classes available in our project
+
+-> We need to execute Unit Test Cases (Junit methods) available in our project
+
+-> We need to package our project as a jar/war file for deployment
+
+- By using build tools we can automate build process (otherwise all the above steps to be done manually).
+
+- Below are the build tools available in market
+		a) Ant  (Outdated)[an acronym for Another Neat Tool) is an XML based build tool.]
+		b) Maven
+		c) Gradle
+
+Apache Maven
+------------
+wiki - apache maven
+-> It is a build automation tool
+
+-> Maven Mainley used for java projects build process
+
+-> Maven supports for C#, Ruby and Scala etc....
+
+-> The current stable version of Maven is 3.6.3
+
+-> Maven Project hosted by Apache Organization
+
+-> Maven Project written in Java Language
+
+-> Maven Official Website https://maven.apache.org/
+
+
+
+Maven's Objectivies
+-------------------
+1) Making the build process easy
+2) Providing an uniform build system
+3) Providing quality project information
+4) Encouraging better development practices
+
+pom.xml
+-------
+-> POM stands for Project Object Model.
+
+-> pom.xml file is input for maven tool
+
+-> Project details & dependencies will be configured in pom.xml
+
+Maven Dependencies
+------------------
+-> The dependencies configured in pom.xml file will be added to maven dependencies folder.
+
+-> We can search for maven dependencies in mvnrepository.com website.
